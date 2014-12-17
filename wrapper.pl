@@ -10,7 +10,7 @@ use warnings;
 # --right-lang (required): the two-letter code of the output language.
 # --help: this will display a help prompt. If the required fields are not entered, this will be displayed.
 
-if ( $#ARGV < 2 )
+if ( $#ARGV < 2 and $ARGV[0] !~ /--help/ )
 {
     print_error_and_exit("Syntax error: not enough arguments.\n\n");
 }
@@ -116,9 +116,7 @@ print_tex_footer();
 
 close OUT;
 
-exit;
-
-# `pdflatex -halt-on-error -output-directory=$output_directory $output_directory/$output_file`;
+`pdflatex -halt-on-error -output-directory=output-files/ $output_file`;
 
 # Change Unicode characters to TeX format.
 sub unicode_to_tex
@@ -169,7 +167,8 @@ sub print_help
     print "    --input-file (required): the relative or absolute path of the input file\n";
     print "    --output-file: if specified, the output file will be named according to the\n";
     print "      option here; otherwise, the output file will be named the same as the\n";
-    print "      input file. Do not include a file extension.\n";
+    print "      input file. Do not include a file extension. The file will automatically\n";
+    print "      be saved in output-files so don't specify a different directory.\n";
     print "    --left-lang (required): the two-letter code of the input language.\n";
     print "    --right-lang (required): the two-letter code of the output language.\n";
     print "    --help: this will display a help prompt. If the required fields are not\n";
