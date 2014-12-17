@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header
+    creationtool="LF Aligner"
+    creationtoolversion="4.05"
+    datatype="unknown"
+    segtype="sentence"
+    adminlang="EN"
+    srclang="EN"
+    o-tmf="TW4Win 2.0 Format"
+  >
+  </header>
+  <body>
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>William Shakespeare’s play The Life of King Henry V includes a nighttime scene in the camp of English soldiers at Agincourt just before their battle with the French army.</seg></tuv>
+<tuv xml:lang="FR"><seg>La pièce de William Shakespeare intitulée Henry V comporte une scène nocturne dans le camp des soldats anglais à Azincourt, juste avant leur bataille contre l’armée française.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>In the dim light and partially disguised, King Henry wanders unrecognized among his soldiers.</seg></tuv>
+<tuv xml:lang="FR"><seg>Dans la pénombre et partiellement déguisé, le roi Henry se promène parmi ses soldats, sans être reconnu.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>He talks with them, trying to gauge the morale of his badly outnumbered troops, and because they do not realize who he is, they are candid in their comments.</seg></tuv>
+<tuv xml:lang="FR"><seg>Il parle avec eux, essayant de sonder le moral de ses troupes surpassées en nombre, et comme ils ne se rendent pas compte de qui il s’agit, ils sont francs dans leurs commentaires.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>In one exchange they philosophize about who bears responsibility for what happens to men in battle—the king or each individual soldier.</seg></tuv>
+<tuv xml:lang="FR"><seg>Lors d’un échange, ils débattent de la question de savoir qui est responsable de ce qui arrive aux hommes dans la bataille, le roi ou chaque soldat.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>At one point King Henry declares, “Methinks I could not die any where so contented as in the king’s company; his cause being just.”</seg></tuv>
+<tuv xml:lang="FR"><seg>A un moment, le roi Henry déclare : « Je ne crois pas qu’il y ait un endroit où je pourrais mourir aussi content qu’en la compagnie du roi, car sa cause est juste. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Michael Williams retorts, “That’s more than we know.”</seg></tuv>
+<tuv xml:lang="FR"><seg>Michael Williams rétorque : « Cela dépasse notre connaissance. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>His companion agrees, “Ay, or more than we should seek after; for we know enough, if we know we are the king’s subjects: if his cause be wrong, our obedience to the king wipes the crime of it out of us.”</seg></tuv>
+<tuv xml:lang="FR"><seg>Son compagnon acquiesce : « Oui, ou ce que nous devons rechercher ; car c’est assez pour nous de savoir que nous sommes les sujets du roi : si sa cause n’est pas juste, nous n’en sommes pas responsables, car nous ne faisons que lui obéir. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Williams adds, “If the cause be not good, the king himself hath a heavy reckoning to make.”</seg></tuv>
+<tuv xml:lang="FR"><seg>Williams ajoute : « Si la cause n’est pas juste, le roi lui-même en est seul responsable. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Not surprisingly, King Henry disagrees. “Every subject’s duty is the king’s; but every subject’s soul is his own.”1</seg></tuv>
+<tuv xml:lang="FR"><seg>Sans surprise, le roi Henry n’est pas du même avis : « La responsabilité de chaque sujet est celle du roi ; mais l’âme de chaque sujet est la sienne1. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Shakespeare does not attempt to resolve this debate in the play, and in one form or another it is a debate that continues down to our own time—who bears responsibility for what happens in our lives?</seg></tuv>
+<tuv xml:lang="FR"><seg>Shakespeare ne tente pas de résoudre ce débat dans la pièce, et sous une forme ou une autre c’est un débat qui continue jusqu’à nos jours : qui est responsable de ce qui se passe dans notre vie ?</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>When things turn bad, there is a tendency to blame others or even God.</seg></tuv>
+<tuv xml:lang="FR"><seg>Quand les choses tournent mal, nous avons tendance à tenir les autres, ou même Dieu, pour responsables.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Sometimes a sense of entitlement arises, and individuals or groups try to shift responsibility for their welfare to other people or to governments.</seg></tuv>
+<tuv xml:lang="FR"><seg>Parfois le sentiment que tout nous est dû s’élève et des personnes ou des groupes tentent de faire endosser la responsabilité de leur bien-être à d’autres personnes ou au gouvernement.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>In spiritual matters some suppose that men and women need not strive for personal righteousness—because God loves and saves us “just as we are.”</seg></tuv>
+<tuv xml:lang="FR"><seg>Dans les domaines spirituels, certains supposent que les hommes et les femmes n’ont pas besoin de s’efforcer d’acquérir la droiture personnelle, du fait que Dieu nous aime et nous sauve tels que nous sommes.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>But God intends that His children should act according to the moral agency He has given them, “that every man may be accountable for his own sins in the day of judgment.”2 It is His plan and His will that we have the principal decision-making role in our own life’s drama.</seg></tuv>
+<tuv xml:lang="FR"><seg>Mais Dieu souhaite que ses enfants agissent selon le libre arbitre moral qu’il leur a donné, « afin que, le jour du jugement, chacun soit responsable de ses propres péchés2 ». Son plan et sa volonté sont que nous ayons le rôle principal dans la prise des décisions de notre vie.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>God will not live our lives for us nor control us as if we were His puppets, as Lucifer once proposed to do.</seg></tuv>
+<tuv xml:lang="FR"><seg>Dieu ne vivra notre vie à notre place ni ne nous contrôlera comme si nous étions ses marionnettes, comme Lucifer l’avait proposé.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Nor will His prophets accept the role of “puppet master” in God’s place.</seg></tuv>
+<tuv xml:lang="FR"><seg>Ses prophètes n’accepteront pas non plus le rôle de marionnettiste à la place de Dieu.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Brigham Young stated: “I do not wish any Latter Day Saint in this world, nor in heaven, to be satisfied with anything I do, unless the Spirit of the Lord Jesus Christ,—the spirit of revelation, makes them satisfied.</seg></tuv>
+<tuv xml:lang="FR"><seg>Brigham Young a dit : « Je ne veux pas qu’un seul saint des derniers jours au monde ou dans les cieux se satisfasse de quoi que ce soit que je fais, à moins que l’Esprit du Seigneur Jésus-Christ, l’esprit de révélation, ne le lui manifeste.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>I wish them to know for themselves and understand for themselves.”3</seg></tuv>
+<tuv xml:lang="FR"><seg>Je veux que [les saints] sachent et comprennent par eux-mêmes3. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>So God does not save us “just as we are,” first, because “just as we are” we are unclean, and “no unclean thing can dwell … in his presence; for, in the language of Adam, Man of Holiness is his name, and the name of his Only Begotten is the Son of Man [of Holiness].”4 And second, God will not act to make us something we do not choose by our actions to become.</seg></tuv>
+<tuv xml:lang="FR"><seg>Ainsi, Dieu ne nous sauve pas tels que nous sommes, tout d’abord parce que, tels que nous sommes, nous sommes impurs, et que « rien d’impur ne peut […] demeurer en sa présence ; car dans la langue d’Adam, Homme de Sainteté est son nom, et le nom de son Fils unique est le fils de l’Homme [de sainteté]4. Et deuxièmement, Dieu ne fera pas de nous ce que nous ne choisissons pas de devenir par nos actions.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Truly He loves us, and because He loves us, He neither compels nor abandons us.</seg></tuv>
+<tuv xml:lang="FR"><seg>Il nous aime véritablement, et, parce qu’il nous aime, il ne nous impose rien et ne nous abandonne pas.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Rather He helps and guides us.</seg></tuv>
+<tuv xml:lang="FR"><seg>Au lieu de cela, il nous aide et nous guide.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Indeed, the real manifestation of God’s love is His commandments.</seg></tuv>
+<tuv xml:lang="FR"><seg>La véritable manifestation de son amour, ce sont les commandements.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>We should (and we do) rejoice in the God-ordained plan that permits us to make choices to act for ourselves and experience the consequences, or as the scriptures express it, to “taste the bitter, that [we] may know to prize the good.”5 We are forever grateful that the Savior’s Atonement overcame original sin so that we can be born into this world yet not be punished for Adam’s transgression.6 Having been thus redeemed from the Fall, we begin life innocent before God and “become free forever, knowing good from evil; to act for [ourselves] and not to be acted upon.”7 We can choose to become the kind of person that we will, and with God’s help, that can be even as He is.8</seg></tuv>
+<tuv xml:lang="FR"><seg>Nous devrions nous réjouir (et nous nous réjouissons) du plan ordonné de Dieu qui nous permet de faire des choix pour agir par nous-mêmes et de faire face aux conséquences, ou comme le dit l’Écriture, de « goûter à l’amer afin d’apprendre à apprécier le bien5 ». Nous sommes à jamais reconnaissants que l’expiation du Sauveur ait surmonté le péché originel afin que nous puissions naître dans ce monde et ne pas être punis pour la transgression d’Adam6. Ayant ainsi été rachetés de la Chute, nous entrons dans la vie innocents devant Dieu et devenons « libres à jamais, discernant le bien du mal, pour agir par [nous] mêmes et non pour être contraints7. » Nous pouvons choisir de devenir le genre de personne que nous voulons être et, avec l’aide de Dieu, cela peut être tel qu’il est8.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>The gospel of Jesus Christ opens the path to what we may become.</seg></tuv>
+<tuv xml:lang="FR"><seg>L’Évangile de Jésus-Christ ouvre la voie à ce que nous pouvons devenir.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Through the Atonement of Jesus Christ and His grace, our failures to live the celestial law perfectly and consistently in mortality can be erased and we are enabled to develop a Christlike character.</seg></tuv>
+<tuv xml:lang="FR"><seg>Grâce à l’expiation et à la grâce de Jésus-Christ, notre incapacité de vivre la loi céleste parfaitement et constamment dans la condition mortelle peut être effacée et nous recevons le pouvoir d’acquérir une personnalité semblable à celle du Christ.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Justice demands, however, that none of this happen without our willing agreement and participation.</seg></tuv>
+<tuv xml:lang="FR"><seg>La justice exige toutefois que rien de cela ne se fasse sans notre accord et notre participation volontaires.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>It has ever been so.</seg></tuv>
+<tuv xml:lang="FR"><seg>Il en a toujours été ainsi.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Our very presence on earth as physical beings is the consequence of a choice each of us made to participate in our Father’s plan.9 Thus, salvation is certainly not the result of divine whim, but neither does it happen by divine will alone.10</seg></tuv>
+<tuv xml:lang="FR"><seg>Notre présence même sur terre en tant qu’êtres physiques est la conséquence d’un choix que chacun de nous a fait de participer au plan de notre Père9. Ainsi, le salut n’est pas quelque chose qui se produit par la seule volonté divine10.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Justice is an essential attribute of God.</seg></tuv>
+<tuv xml:lang="FR"><seg>La justice est un attribut essentiel de Dieu.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>We can have faith in God because He is perfectly trustworthy.</seg></tuv>
+<tuv xml:lang="FR"><seg>C’est parce qu’il est parfaitement digne de confiance que nous pouvons avoir foi en Dieu.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>The scriptures teach us that “God doth not walk in crooked paths, neither doth he turn to the right hand nor to the left, neither doth he vary from that which he hath said, therefore his paths are straight, and his course is one eternal round”11 and that “God is no respecter of persons.”12 We rely on the divine quality of justice for faith, confidence, and hope.</seg></tuv>
+<tuv xml:lang="FR"><seg>Les Écritures nous enseignent que « Dieu ne marche pas dans des sentiers tortueux ; il ne tourne ni à droite ni à gauche, et il ne dévie pas de ce qu’il a dit ; c’est pourquoi ses sentiers sont droits et son chemin est une même ronde éternelle11 » et qu’ « il ne fait pas acception de personne12 ». Nous nous en remettons à la qualité divine de la justice pour avoir la foi, la confiance et l’espérance.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>But as a consequence of being perfectly just, there are some things God cannot do.</seg></tuv>
+<tuv xml:lang="FR"><seg>Mais en conséquence de sa justice parfaite, il y a des choses que Dieu ne peut pas faire.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>He cannot be arbitrary in saving some and banishing others.</seg></tuv>
+<tuv xml:lang="FR"><seg>Il ne peut pas sauver certaines personnes et en bannir d’autres de façon arbitraire.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>He “cannot look upon sin with the least degree of allowance.”13 He cannot allow mercy to rob justice.14</seg></tuv>
+<tuv xml:lang="FR"><seg>Il ne peut « considérer le péché avec la moindre indulgence13. » Il ne peut permettre à la miséricorde de frustrer la justice14.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>It is compelling evidence of His justice that God has forged the companion principle of mercy.</seg></tuv>
+<tuv xml:lang="FR"><seg>C’est une preuve irréfutable de la justice de Dieu qu’il a forgé le principe corollaire de la miséricorde.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>It is because He is just that He devised the means for mercy to play its indispensable role in our eternal destiny.</seg></tuv>
+<tuv xml:lang="FR"><seg>C’est parce qu’il est juste qu’il a conçu un moyen pour que la miséricorde joue son rôle indispensable dans notre destinée éternelle.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>So now, “justice exerciseth all his demands, and also mercy claimeth all which is her own.”15</seg></tuv>
+<tuv xml:lang="FR"><seg>Ainsi donc, « la justice exerce toutes ses exigences, et la miséricorde réclame aussi tous les siens15 ».</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>We know that it is “the sufferings and death of him who did no sin, in whom [the Father] wast well pleased; … the blood of [His] Son which was shed”16 that satisfies the demands of justice, extends mercy, and redeems us.17 Even so, “according to justice, the plan of redemption could not be brought about, only on conditions of repentance.”18 It is the requirement of and the opportunity for repentance that permits mercy to perform its labor without trampling justice.</seg></tuv>
+<tuv xml:lang="FR"><seg>Nous savons que ce sont « les souffrances et la mort de celui qui n’a commis aucun péché, en qui [le Père se] complaisai[t] ; […] le sang de [s]on Fils qui a été versé16 » qui satisfait aux exigence de la justice, étend la miséricorde et nous rachète17. Même ainsi, « selon la justice, le plan de la rédemption ne pouvait pas être réalisé, si ce n’est à condition que les hommes se repentent18 ». C’est l’exigence du repentir et sa possibilité qui permettent à la miséricorde d’accomplir son œuvre sans que la justice soit foulée aux pieds.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Christ died not to save indiscriminately but to offer repentance.</seg></tuv>
+<tuv xml:lang="FR"><seg>Le Christ n’est pas mort pour sauver sans distinction mais pour offrir la possibilité de se repentir.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>We rely “wholly upon the merits of him who is mighty to save”19 in the process of repentance, but acting to repent is a self-willed change.</seg></tuv>
+<tuv xml:lang="FR"><seg>Nous nous reposons « entièrement sur les mérites de celui qui est puissant à sauver19 » dans le processus du repentir, mais le repentir est un changement volontaire.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>So by making repentance a condition for receiving the gift of grace, God enables us to retain responsibility for ourselves.</seg></tuv>
+<tuv xml:lang="FR"><seg>En faisant ainsi du repentir une condition préalable à la réception de la grâce, Dieu nous permet de rester responsables de nous-mêmes.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Repentance respects and sustains our moral agency: “And thus mercy can satisfy the demands of justice, and encircles them in the arms of safety, while he that exercises no faith unto repentance is exposed to the whole law of the demands of justice; therefore only unto him that has faith unto repentance is brought about the great and eternal plan of redemption.”20</seg></tuv>
+<tuv xml:lang="FR"><seg>Le repentir respecte et soutient notre libre arbitre moral : « Et ainsi la miséricorde peut satisfaire aux exigences de la justice et les enserre dans les bras de la sécurité, tandis que celui qui n’exerce aucune foi qui produit le repentir est exposé à toute la loi des exigences de la justice ; c’est pourquoi, ce n’est que pour celui qui a la foi qui produit le repentir qu’est réalisé le plan, grand et éternel, de la rédemption20. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Misunderstanding God’s justice and mercy is one thing; denying God’s existence or supremacy is another, but either will result in our achieving less—sometimes far less—than our full, divine potential.</seg></tuv>
+<tuv xml:lang="FR"><seg>Se méprendre sur la justice et la miséricorde de Dieu est une chose ; nier son existence ou sa suprématie en est une autre, mais les deux nous amèneront à accomplir moins, parfois beaucoup moins que ce que notre potentiel divin nous permet.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>A God who makes no demands is the functional equivalent of a God who does not exist.</seg></tuv>
+<tuv xml:lang="FR"><seg>Un Dieu qui n’a pas d’exigences équivaut à un Dieu qui n’existe pas.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>A world without God, the living God who establishes moral laws to govern and perfect His children, is also a world without ultimate truth or justice.</seg></tuv>
+<tuv xml:lang="FR"><seg>Un monde sans Dieu, le Dieu vivant qui établit des lois morales pour gouverner et perfectionner ses enfants, est aussi un monde sans vérité ni justice absolue.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>It is a world where moral relativism reigns supreme.</seg></tuv>
+<tuv xml:lang="FR"><seg>C’est un monde ou le relativisme moral règne en maître.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Relativism means each person is his or her own highest authority.</seg></tuv>
+<tuv xml:lang="FR"><seg>Le relativisme signifie que chacun est sa propre autorité suprême.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Of course, it is not just those who deny God that subscribe to this philosophy.</seg></tuv>
+<tuv xml:lang="FR"><seg>Bien entendu, il n’y a pas que les personnes qui nient l’existence de Dieu qui souscrivent à cette philosophie.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Some who believe in God still believe that they themselves, individually, decide what is right and wrong.</seg></tuv>
+<tuv xml:lang="FR"><seg>Certaines personnes qui croient en Dieu croient néanmoins qu’elles décident elles-mêmes, personnellement, de ce qui est bien et de ce qui est mal.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>One young adult expressed it this way: “I don’t think I could say that Hinduism is wrong or Catholicism is wrong or being Episcopalian is wrong—I think it just depends on what you believe. … I don’t think that there’s a right and wrong.”21 Another, asked about the basis for his religious beliefs, replied, “Myself—it really comes down to that.</seg></tuv>
+<tuv xml:lang="FR"><seg>Un jeune adulte l’a exprimé de cette façon : « Je ne crois pas que je pourrais dire que l’hindouisme ou le catholicisme sont mauvais, ou qu’il est mal d’être épiscopalien ; je pense que cela dépend seulement de ce qu’on croit. […] Je ne crois pas qu’il y ait un bien et un mal21. » Un autre jeune adulte, à qui l’on a demandé quel était le fondement de ses croyances religieuses, a répondu : « Moi-même ; cela se résume à ça.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>I mean, how could there be authority to what you believe?”22</seg></tuv>
+<tuv xml:lang="FR"><seg>Ce que je veux dire c’est comment ce que l’on croit pourrait-il faire autorité22 ?</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>To those who believe anything or everything could be true, the declaration of objective, fixed, and universal truth feels like coercion—“I shouldn’t be forced to believe something is true that I don’t like.”</seg></tuv>
+<tuv xml:lang="FR"><seg>Pour les personnes qui croient que tout et n’importe quoi pourrait être qualifié de vérité, l’affirmation qu’il y a une vérité objective, immuable et universelle est perçue comme coercitive : « Je ne devrais pas être forcé de croire que quelque chose que je n’aime pas est vrai. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>But that does not change reality.</seg></tuv>
+<tuv xml:lang="FR"><seg>Mais cela ne change pas la réalité.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Resenting the law of gravity won’t keep a person from falling if he steps off a cliff.</seg></tuv>
+<tuv xml:lang="FR"><seg>Rejeter la loi de la gravité n’empêchera pas une personne de tomber si elle saute d’une falaise.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>The same is true for eternal law and justice.</seg></tuv>
+<tuv xml:lang="FR"><seg>Il en va de même de la loi et de la justice éternelles.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Freedom comes not from resisting it but from applying it.</seg></tuv>
+<tuv xml:lang="FR"><seg>C’est en l’appliquant et non en y résistant que l’on devient libre.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>That is fundamental to God’s own power.</seg></tuv>
+<tuv xml:lang="FR"><seg>Le pouvoir de Dieu lui-même repose sur ce fondement.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>If it were not for the reality of fixed and immutable truths, the gift of agency would be meaningless since we would never be able to foresee and intend the consequences of our actions.</seg></tuv>
+<tuv xml:lang="FR"><seg>S’il n’y avait pas de vérités établies et immuables, le don du libre arbitre n’aurait pas de sens puisque nous ne serions jamais en mesure de prévoir et d’évaluer les conséquences de nos actes.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>As Lehi expressed it: “If ye shall say there is no law, ye shall also say there is no sin.</seg></tuv>
+<tuv xml:lang="FR"><seg>Comme Léhi l’a exprimé : « Si vous dites qu’il n’y a pas de loi, vous dites aussi qu’il n’y a pas de péché.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>If ye shall say there is no sin, ye shall also say there is no righteousness.</seg></tuv>
+<tuv xml:lang="FR"><seg>Si vous dites qu’il n’y a pas de péché, vous dites aussi qu’il n’y a pas de justice.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>And if there be no righteousness there be no happiness.</seg></tuv>
+<tuv xml:lang="FR"><seg>Et s’il n’y a pas de justice, il n’y a pas de bonheur.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>And if there be no righteousness nor happiness there be no punishment nor misery.</seg></tuv>
+<tuv xml:lang="FR"><seg>Et s’il n’y a pas de justice ni de bonheur, il n’y a pas de châtiment ni de malheur.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>And if these things are not there is no God.</seg></tuv>
+<tuv xml:lang="FR"><seg>Et si ces choses ne sont pas, il n’y a pas de Dieu.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>And if there is no God we are not, neither the earth; for there could have been no creation of things, neither to act nor to be acted upon; wherefore, all things must have vanished away.”23</seg></tuv>
+<tuv xml:lang="FR"><seg>Et s’il n’y a pas de Dieu, nous ne sommes pas, ni la terre, car il n’aurait pas pu y avoir de création, ni de choses qui se meuvent, ni de choses qui sont mues ; c’est pourquoi, toutes choses auraient dû disparaître23. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>In matters both temporal and spiritual, the opportunity to assume personal responsibility is a God-given gift without which we cannot realize our full potential as daughters and sons of God.</seg></tuv>
+<tuv xml:lang="FR"><seg>Dans les domaines temporel et spirituel, la possibilité d’être personnellement responsable est un don de Dieu sans lequel nous ne pouvons pas atteindre tout notre potentiel de filles et fils de Dieu.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Personal accountability becomes both a right and a duty that we must constantly defend; it has been under assault since before the Creation.</seg></tuv>
+<tuv xml:lang="FR"><seg>La responsabilité personnelle est un droit et un devoir que nous devons constamment défendre ; elle est combattue depuis avant la Création.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>We must defend accountability against persons and programs that would (sometimes with the best of intentions) make us dependent.</seg></tuv>
+<tuv xml:lang="FR"><seg>Nous devons défendre la responsabilité contre les personnes et les programmes qui voudraient (parfois avec les meilleures intentions) nous rendre dépendants.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>And we must defend it against our own inclinations to avoid the work that is required to cultivate talents, abilities, and Christlike character.</seg></tuv>
+<tuv xml:lang="FR"><seg>Et nous devons la défendre contre notre propre inclination à éviter le travail requis pour cultiver nos talents et nos capacités et acquérir une personnalité semblable à celle du Christ.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>The story is told of a man who simply would not work.</seg></tuv>
+<tuv xml:lang="FR"><seg>On raconte l’histoire d’un homme qui ne voulait absolument pas travailler.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>He wanted to be taken care of in every need.</seg></tuv>
+<tuv xml:lang="FR"><seg>Il voulait que l’on pourvoie à tous ses besoins.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>To his way of thinking, the Church or the government, or both, owed him a living because he had paid his taxes and his tithing.</seg></tuv>
+<tuv xml:lang="FR"><seg>Selon son raisonnement, l’Église ou le gouvernement, ou les deux, devaient assurer sa subsistance parce qu’il avait payé ses impôts et sa dîme.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>He had nothing to eat but refused to work to care for himself.</seg></tuv>
+<tuv xml:lang="FR"><seg>Il n’avait rien à manger mais refusait de travailler pour subvenir à ses besoins.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Out of desperation and disgust, those who had tried to help him decided that since he would not lift a finger to sustain himself, they might as well just take him to the cemetery and let him pass on.</seg></tuv>
+<tuv xml:lang="FR"><seg>Désespérés et dégoûtés, les gens qui avaient cherché à l’aider décidèrent que puisqu’il ne voulait pas lever le petit doigt pour se prendre en charge, ils feraient aussi bien de le conduire au cimetière et l’y laisser mourir.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>On the way to the cemetery, one man said, “We can’t do this.</seg></tuv>
+<tuv xml:lang="FR"><seg>Sur le chemin du cimetière, un homme a dit : « On ne peut pas faire ça.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>I have some corn I will give him.”</seg></tuv>
+<tuv xml:lang="FR"><seg>J’ai du maïs, je vais lui en donner. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>So they explained this to the man, and he asked, “Have the husks been removed?”</seg></tuv>
+<tuv xml:lang="FR"><seg>Quand ils ont exposé leur intention à l’homme, il a demandé : « Est-il dépouillé de son enveloppe ? »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>They responded, “No.”</seg></tuv>
+<tuv xml:lang="FR"><seg>Ils ont répondu : « Non. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>“Well, then,” he said, “drive on.”</seg></tuv>
+<tuv xml:lang="FR"><seg>« Eh bien alors, continuez à avancer. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>It is God’s will that we be free men and women enabled to rise to our full potential both temporally and spiritually, that we be free from the humiliating limitations of poverty and the bondage of sin, that we enjoy self-respect and independence, that we be prepared in all things to join Him in His celestial kingdom.</seg></tuv>
+<tuv xml:lang="FR"><seg>La volonté de Dieu est que nous soyons des hommes et des femmes libres à qui la possibilité est donnée de s’élever jusqu’à la pleine mesure de leur potentiel temporel et spirituel, que nous ne subissions pas les limitations humiliantes de la pauvreté et de la captivité du péché, que nous ayons le respect de nous-mêmes et l’indépendance, que nous soyons préparés en tout pour nous joindre à lui dans son royaume céleste.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>I am under no illusion that this can be achieved by our own efforts alone without His very substantial and constant help.</seg></tuv>
+<tuv xml:lang="FR"><seg>Je ne me fais pas la moindre illusion que cela puisse être réalisé par nos seuls efforts, sans son aide considérable et constante.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>“We know that it is by grace that we are saved, after all we can do.”24 And we do not need to achieve some minimum level of capacity or goodness before God will help—divine aid can be ours every hour of every day, no matter where we are in the path of obedience.</seg></tuv>
+<tuv xml:lang="FR"><seg>« Nous savons que c’est par la grâce que nous sommes sauvés, après tout ce que nous pouvons faire24. » Nous ne devons pas atteindre un certain niveau de capacité ou de bonté avant que Dieu nous vienne en aide. Nous pouvons recevoir cette aide à chaque heure de chaque jour, où que nous nous trouvions sur le chemin de l’obéissance.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>But I know that beyond desiring His help, we must exert ourselves, repent, and choose God for Him to be able to act in our lives consistent with justice and moral agency.</seg></tuv>
+<tuv xml:lang="FR"><seg>Mais je sais qu’en plus d’aspirer à son aide, nous devons faire tous nos efforts, nous repentir et choisir Dieu, pour qu’il puisse agir dans notre vie en accord avec la justice et le libre arbitre moral.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>My plea is simply to take responsibility and go to work so that there is something for God to help us with.</seg></tuv>
+<tuv xml:lang="FR"><seg>Mon exhortation est simplement que nous prenions nos responsabilités et que nous nous mettions au travail pour donner à Dieu quelque chose en quoi il puisse nous aider.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>I bear witness that God the Father lives, that His Son, Jesus Christ, is our Redeemer, and that the Holy Spirit is present with us.</seg></tuv>
+<tuv xml:lang="FR"><seg>Je témoigne que Dieu le Père vit, que Jésus-Christ, son Fils, est notre Rédempteur et que le Saint-Esprit est présent avec nous.</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Their desire to help us is undoubted, and Their capacity to do so is infinite.</seg></tuv>
+<tuv xml:lang="FR"><seg>Leur désir de nous aider est indubitable, et leur capacité de le faire est infinie. « [Réveillons-nous] et [levons-nous] de la poussière, […] afin que […] les alliances que le Père éternel a faites avec [nous] s’accomplissent25. »</seg></tuv> </tu>
+
+<tu creationdate="20141202T022916Z" creationid="LF Aligner 4.05">
+<tuv xml:lang="EN"><seg>Let us “awake, and arise from the dust, … that the covenants of the Eternal Father which he hath made unto [us] may be fulfilled.”25 In the name of Jesus Christ, amen.</seg></tuv>
+<tuv xml:lang="FR"><seg>Au nom de Jésus-Christ. Amen.</seg></tuv> </tu>
+
+
+</body>
+</tmx>
