@@ -2,22 +2,18 @@
 
 use strict;
 use warnings;
+use File::Path qw( make_path );
 
-# CLI options:
-# --input-file (required): the name of the input file
-# --output-file: if specified, the output file will be named according to the option here; otherwise, the output file will be named the same as the input file.
-# --left-lang (required): the two-letter code of the input language.
-# --right-lang (required): the two-letter code of the output language.
-# --help: this will display a help prompt. If the required fields are not entered, this will be displayed.
-
-if ( $#ARGV < 2 and $ARGV[0] !~ /--help/ )
+# Error and exit if not enough arguments are supplied.
+if ( $#ARGV < 2 )
 {
-    print_error_and_exit("Syntax error: not enough arguments.\n\n");
+    print_error_and_exit("");
 }
 
 my $DEBUG = 0;
 my $input_file;
 my $output_file;
+my $output_directory = "output-files";
 my $no_output_file_specified = 1;
 my $left_lang;
 my $right_lang;
@@ -63,9 +59,9 @@ if ( $no_output_file_specified )
     $output_file = "output-files/out-" . $input_file_prefix . ".tex";
 }
 
-# Sample files.
-# $input_file = "sample-files/1en-1fr.tmx";
-# $input_file = "sample-files/2en-2fr.tmx";
+if ( !-d $output_directory ) {
+    make_path $output_directory or die "Failed to create path $output_directory: $!\n";
+}
 
 open IN, "<$input_file" or die "Failed to open IN: $!\n";
 open OUT, ">$output_file" or die "Failed to open OUT: $!\n";
@@ -176,8 +172,8 @@ sub print_help
     print "    --help: this will display a help prompt. If the required fields are not\n";
     print "      entered, this will be displayed.\n";
     print "\n";
-    print "Example: wrapper.pl --input-file=sample-files/1en-1fr.tmx --left-lang=en --right-lang=fr\n";
-    print "Example: wrapper.pl --input-file=sample-files/2en-2fr.tmx --left-lang=fr --right-lang=en --output-file=foo\n";
+    print "Example: perl wrapper.pl --input-file=sample-files/1en-1fr.tmx --left-lang=en --right-lang=fr\n";
+    print "Example: perl wrapper.pl --input-file=sample-files/2en-2fr.tmx --left-lang=fr --right-lang=en --output-file=foo\n";
 }
 
 sub print_error_and_exit
@@ -189,6 +185,6 @@ sub print_error_and_exit
 
 sub check_unicode_to_tex
 {
-    $current_line =~ s/[A-Za-z\\'`<>:= "-^\/\{\}]//g; # Removes all letters and escaped diacritical marks.
-    print $current_line; # If nothing is printed, this worked. Remember to turn off DEBUG.
+    $_[0] =~ s/[A-Za-z\\'`<>:= "-^\/\{\}]//g; # Removes all letters and escaped diacritical marks.
+    print $_[0]; # If nothing is printed, this worked. Remember to turn off DEBUG.
 }
