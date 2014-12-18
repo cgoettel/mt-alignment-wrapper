@@ -27,7 +27,6 @@ foreach my $arg (@ARGV)
     if ( $arg =~ /--input-file=/ )
     {
         $input_file = $';
-        print $input_file . "\n" if $DEBUG;
         next;
     }
     elsif ( $arg =~ /--output-file=/ )
@@ -39,20 +38,12 @@ foreach my $arg (@ARGV)
     elsif ( $arg =~ /--left-lang=/ )
     {
         $left_lang = uc($');
-        
-        print "left_lang: \"$left_lang\"\n" if $DEBUG;
-        print length($left_lang) . "\n" if $DEBUG;
-        
         print_error_and_exit("Syntax error: incorrect left-lang.\n\n") if ( length($left_lang) != 2 );
         next;
     }
     elsif ( $arg =~ /--right-lang=/ )
     {
         $right_lang = uc($');
-        
-        print "right_lang: \"$right_lang\"\n" if $DEBUG;
-        print length($right_lang) . "\n" if $DEBUG;
-        
         print_error_and_exit("Syntax error: incorrect right-lang.\n\n") if ( length($right_lang) != 2 );
         next;
     }
@@ -81,6 +72,8 @@ open OUT, ">$output_file" or die "Failed to open OUT: $!\n";
 
 print_tex_header();
 
+my $both_sides_printed = 0;
+
 while ( <IN> )
 {
     next unless ( $_ =~ /<tuv/ );
@@ -93,7 +86,7 @@ while ( <IN> )
     
     # Change quotation marks to TeX standard.
     unicode_to_tex($current_line);
-    $current_line =~ s/[A-Za-z\\'`<>:= "-^\/\{\}]//g if $DEBUG; # Use this to make sure that unicode_to_tex worked properly.
+    check_unicode_to_tex() if $DEBUG;
     
     # Strip excess.
     $current_line =~ s/.*<seg>(.*)<\/seg>.*/$1/;
@@ -101,12 +94,18 @@ while ( <IN> )
     if ( $language eq $left_lang )
     {
         print OUT "    \\ParallelLText{$current_line}\n";
+        $both_sides_printed++;
     }
-    
-    if ( $language eq $right_lang )
+    else
     {
         print OUT "    \\ParallelRText{$current_line}\n";
+        $both_sides_printed++;
+    }
+    
+    if ( $both_sides_printed == 2 )
+    {
         print OUT "    \\ParallelPar\n";
+        $both_sides_printed = 0;
     }
 }
 
@@ -130,15 +129,18 @@ sub unicode_to_tex
     $_[0] =~ s/ç/\\,c/g;
     $_[0] =~ s/è/\\`e/g;
     $_[0] =~ s/ê/\\^e/g;
+    $_[0] =~ s/ï/\\"i/g;
+    $_[0] =~ s/î/\\^i/g;
     $_[0] =~ s/ô/\\^o/g;
     $_[0] =~ s/œ/\\oe\{\}/g;
     $_[0] =~ s/ù/\\`u/g;
     $_[0] =~ s/û/\\^u/g;
-    $_[0] =~ s/«/\\og\{\}/g;
+    $_[0] =~ s/«/\\og/g;
     $_[0] =~ s/»/\\fg\{\}/g;
     $_[0] =~ s/À/\\`A/g;
     $_[0] =~ s/É/\\'E/g;
     $_[0] =~ s/—/---/g;
+    $_[0] =~ s/…/\\dots /g;
 }
 
 sub print_tex_header
@@ -183,4 +185,10 @@ sub print_error_and_exit
     print $_[0];
     print_help();
     exit;
+}
+
+sub check_unicode_to_tex
+{
+    $current_line =~ s/[A-Za-z\\'`<>:= "-^\/\{\}]//g; # Removes all letters and escaped diacritical marks.
+    print $current_line; # If nothing is printed, this worked. Remember to turn off DEBUG.
 }
