@@ -23,7 +23,9 @@ This parser is a standalone program written in Perl with the following flags:
 
 The parser checks the command line arguments, ensuring that the correct options have been specified, and then runs through the TMX file. Unless the current line in the TMX is a `<tuv>` tag, the parser moves on. For every `<tuv>` tag, the parser grabs the language from that line and prints the contents of that tag on either the left or right (as user specified). Once both lines have been printed, `\ParallelPar` is printed which sets up the environment for the next line of text.
 
-Currently, the TeX file is always generated with a header and footer (to make a complete TeX file), so the header is printed first, then the while loop, and finally the footer. Lastly, `pdflatex` is run, generating a PDF file. See further in the below section on future work.
+For every line, the parser converts any Unicode characters into TeX-friendly diacritical marks. For example, `é` is converted to `\'e`. This function, `unicode_to_tex` does not parse for every Unicode character, simply the ones that appear in the two sample files. See Future work below.
+
+Currently, the TeX file is always generated with a header and footer (to make a complete TeX file), so the header is printed first, then the while loop, and finally the footer. Lastly, `pdflatex` is run, generating a PDF file. See Future work below.
 
 ##Knowledge sources and corpora
 The two included example files are General Conference talks that have been aligned using the LF Aligner tool.
@@ -36,7 +38,7 @@ My original evaluation goal was:
 This parser fulfills those requirements, although there is plenty of improvement that can be made.
 
 ##Future work
-- Complete Unicode to TeX conversion. So far only the letters that appear in the two sample files are converted. To help, there is a regex that will eliminate every character and TeX diacritical mark, making it easier to find which letters also need conversion.
+- Complete Unicode to TeX conversion. So far only the letters that appear in the two sample files are converted. To help, there is a function called `check_unicode_to_tex` that will eliminate every character and TeX diacritical mark, making it easier to find which letters still need to be converted.
 - Use a Perl XML parser instead of doing everything manually.
 - Support for more than two languages. Can Parallel handle more than two?
 - Option to output a TeX file, just the relevant TeX body, or a complete PDF. To do this, simply add another command line option (e.g., `--output-format=` with options `body`, `tex`, `pdf`) that prints out just the contents of the while loop; the header, while loop, and footer; or runs `pdflatex` as well, respectively.
