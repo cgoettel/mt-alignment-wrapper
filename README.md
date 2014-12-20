@@ -23,24 +23,7 @@ This parser is a standalone program written in Perl with the following flags:
 
 The parser checks the command line arguments, ensuring that the correct options have been specified, and then runs through the TMX file. Unless the current line in the TMX is a `<tuv>` tag, the parser moves on. For every `<tuv>` tag, the parser grabs the language from that line and prints the contents of that tag on either the left or right (as user specified). Once both lines have been printed, `\ParallelPar` is printed which sets up the environment for the next line of text.
 
-Currently, the TeX file is always generated with a header and footer (to make a complete TeX file), so the header is printed first, then the while loop, and finally the footer. See further in [Future work](#Future work).
-
-##Technologies
-- what technologies you will employ 
-
-% (e.g. word spotting, language recognition, parsing, corpus development, text-to-speech, dialogue move engines, etc.)
-
-Gary gave a presentation on MT and bitext alignment. This project will use one of the MT programs talked about (need his slides to figure out which one) and LaTeX for alignment. The main criteria for an MT program is that it can be used on the terminal. The output format isn't a huge concern because parsing text isn't too difficult.
-
-##Tools
-- what tools or toolkits you plan to use
-
-% (e.g. Java, C++, PCKIMMO, etc.)
-
-- Wrapper: Perl
-- Makefile: Bash and make macros
-- MT: still needs to be selected.
-- Alignment: LaTeX
+Currently, the TeX file is always generated with a header and footer (to make a complete TeX file), so the header is printed first, then the while loop, and finally the footer. Lastly, `pdflatex` is run, generating a PDF file. See further in the below section on future work.
 
 ##Knowledge sources and corpora
 The two included example files are General Conference talks that have been aligned using the LF Aligner tool.
@@ -48,7 +31,9 @@ The two included example files are General Conference talks that have been align
 ##Evaluation
 My original evaluation goal was:
 
-> The system should be evaluated based on its ability to easily translate a file and produce a correctly formatted output file. Correctly formatted, in this case, means that the output file aligns the parallel texts accurately and according to the user's choice (sentence, paragraph, or none).
+> The system should be evaluated based on its ability to easily produce a correctly formatted output file. Correctly formatted, in this case, means that the output file aligns the parallel texts accurately and according to the given TMX file.
+
+This parser fulfills those requirements, although there is plenty of improvement that can be made.
 
 ##Future work
 - Complete Unicode to TeX conversion. So far only the letters that appear in the two sample files are converted. To help, there is a regex that will eliminate every character and TeX diacritical mark, making it easier to find which letters also need conversion.
@@ -60,5 +45,3 @@ My original evaluation goal was:
 
 ##References
 - http://ctan.org/pkg/parallel
-- https://github.com/cgoettel/bible/
-- https://github.com/cgoettel/mt-alignment-wrapper
