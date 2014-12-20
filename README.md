@@ -23,7 +23,7 @@ This parser is a standalone program written in Perl with the following flags:
 
 The parser checks the command line arguments, ensuring that the correct options have been specified, and then runs through the TMX file. Unless the current line in the TMX is a `<tuv>` tag, the parser moves on. For every `<tuv>` tag, the parser grabs the language from that line and prints the contents of that tag on either the left or right (as user specified). Once both lines have been printed, `\ParallelPar` is printed which sets up the environment for the next line of text.
 
-Currently, the TeX file is always generated with a header and footer (to make a complete TeX file), so the header is printed first, then the while loop, and finally the footer. See further in [Future work](#FutureWork).
+Currently, the TeX file is always generated with a header and footer (to make a complete TeX file), so the header is printed first, then the while loop, and finally the footer. See further in [Future work](#Future work).
 
 ##Technologies
 - what technologies you will employ 
