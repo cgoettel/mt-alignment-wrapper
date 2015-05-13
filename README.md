@@ -1,4 +1,4 @@
-mt-alignment-wrapper
+tmx-latex-parser
 ====================
 
 ##Dependencies
