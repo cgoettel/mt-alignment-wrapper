@@ -1,18 +1,18 @@
 tmx-latex-parser
 ====================
 
-##Dependencies
+## Dependencies
 - Perl
 - LaTeX
 - LaTeX package Parallel: http://www.ctan.org/pkg/parallel
 
-###Installation
+### Installation
 Once all of the dependencies are met, the script can be run as is. Make sure the file has sufficient permissions to run, and run `perl wrapper.pl --help` for more information.
 
-##Basic problem
+## Basic problem
 There doesn't appear to be an easy way to parse TMX files and format them with LaTeX. Using the Parallel package, LaTeX can beautifully align bitext. This parser takes a TMX file as input (maximum two languages) and outputs a TeX file with the aligned text.
 
-##Overall approach
+## Overall approach
 This parser is a standalone program written in Perl with the following flags:
 
 - `--input-file` (required): the name of the input file.
@@ -27,17 +27,17 @@ For every line, the parser converts any Unicode characters into TeX-friendly dia
 
 Currently, the TeX file is always generated with a header and footer (to make a complete TeX file), so the header is printed first, then the while loop, and finally the footer. Lastly, `pdflatex` is run, generating a PDF file. See Future work below.
 
-##Knowledge sources and corpora
+## Knowledge sources and corpora
 The two included example files are General Conference talks that have been aligned using the LF Aligner tool.
 
-##Evaluation
+## Evaluation
 My original evaluation goal was:
 
 > The system should be evaluated based on its ability to easily produce a correctly formatted output file. Correctly formatted, in this case, means that the output file aligns the parallel texts accurately and according to the given TMX file.
 
 This parser fulfills those requirements, although there is plenty of improvement that can be made.
 
-##Future work
+## Future work
 - Complete Unicode to TeX conversion. So far only the letters that appear in the two sample files are converted. To help, there is a function called `check_unicode_to_tex` that will eliminate every character and TeX diacritical mark, making it easier to find which letters still need to be converted.
 - Use a Perl XML parser instead of doing everything manually.
 - Support for more than two languages. Can Parallel handle more than two?
@@ -45,5 +45,5 @@ This parser fulfills those requirements, although there is plenty of improvement
 - (?) Integration with LF Aligner tool.
 - Use a Module to read command line arguments.
 
-##References
+## References
 - http://ctan.org/pkg/parallel
